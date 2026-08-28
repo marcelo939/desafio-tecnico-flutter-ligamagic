@@ -8,9 +8,11 @@ Você recebeu um projeto Flutter com uma base propositalmente incompleta. Seu ob
 
 Não esperamos uma solução perfeita ou funcionalidades fora do escopo. Queremos entender como você lê um código existente, prioriza, toma decisões, lida com problemas e entrega valor.
 
-## Tempo esperado
+## Instruções Gerais
 
-Dedique até 4 horas. Priorize o fluxo principal. Se algo ficar pendente, documente ao final deste README o que faria em seguida e por que.
+Priorize o fluxo principal. 
+
+Se algo ficar pendente, documente ao final deste README o que faria em seguida e por que.
 
 ## Como executar
 
