@@ -68,7 +68,7 @@ A interface não precisa reproduzir um layout específico: queremos avaliar suas
 
 ## Regras de entrega
 
-1. Crie um repositório público no GitHub a partir deste projeto.
+1. Crie um repositório **privado** no GitHub a partir deste projeto. NÃO USE FORK!
 2. Atualize a seção final deste README.
 3. Envie o link do repositorio ate a data combinada.
 
@@ -81,3 +81,6 @@ Preencha antes de entregar.
 - Decisões técnicas:
 - Testes adicionados:
 - Limitações e próximos passos:
+- Conceder permissão no projeto para os seguintes usuários
+    - liga-LeonardoWada
+    - 
