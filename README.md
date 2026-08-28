@@ -42,15 +42,11 @@ Leia os arquivos marcados com `TODO(candidato)`. Eles indicam o núcleo a ser co
 
 - Implemente a busca de cartas no `PokemonTcgApiDataSource`.
 - Converta a resposta JSON para `TradingCard`.
-- Trate respostas HTTP não bem-sucedidas e JSON inesperado.
-- Mantenha o `http.Client` injetavel para que os testes nao dependam da internet.
 
 ### 2. Concluir o gerenciamento de estado
 
 - Implemente `CardCatalogViewModel.search`.
-- Trate busca valida, lista vazia e falha de rede.
 - Atualize a interface por meio de `Provider` e `ChangeNotifier`.
-- Evite regras de negocio e chamadas HTTP nos widgets.
 
 ### 3. Desenvolver a tela de catalogo
 
@@ -63,38 +59,18 @@ Desenvolva `CardCatalogScreen` e os componentes que considerar necessários. A t
 - Estado vazio.
 - Estado de erro com opção de tentar novamente.
 
-Use componentes pequenos, com responsabilidade clara. A interface não precisa reproduzir um layout específico: queremos avaliar suas escolhas de estrutura, legibilidade, usabilidade e composição de widgets.
+A interface não precisa reproduzir um layout específico: queremos avaliar suas escolhas de estrutura, legibilidade, usabilidade e composição de widgets.
 
 ### 4. Testes
 
 - Faça os testes fornecidos passarem sem alterar suas expectativas.
 - Adicione ao menos um teste relevante que você considere necessário.
-- Não use rede real nos testes.
-
-## Evolucoes opcionais
-
-Se concluir o fluxo principal e ainda houver tempo, escolha evoluções que agreguem valor e documente a decisão:
-
-- debounce na busca;
-- paginação com proteção contra chamadas duplicadas;
-- tela de detalhes;
-- persistência local de favoritos;
-- acessibilidade e responsividade;
-- tratamento específico de timeout e ausência de conexão.
-
-Não é esperado implementar todos os itens opcionais.
 
 ## Regras de entrega
 
 1. Crie um repositório público no GitHub a partir deste projeto.
-2. Mantenha o histórico de commits, se possível com commits pequenos e descritivos.
-3. Não envie chaves, tokens, arquivos `.env` ou dados sensíveis.
-4. Atualize a seção final deste README.
-5. Envie o link do repositorio ate a data combinada.
-
-## O que valorizamos
-
-Valorizamos código simples, legível e fácil de evoluir; preocupação com a experiência da pessoa usuária; testes relevantes; curiosidade para entender o problema; e capacidade de explicar os trade-offs feitos no prazo disponível.
+2. Atualize a seção final deste README.
+3. Envie o link do repositorio ate a data combinada.
 
 ## Decisões e limitações
 
